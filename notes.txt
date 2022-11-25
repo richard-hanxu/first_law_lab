@@ -5,3 +5,7 @@ first reached the target temperature of the trial, and at least 2 minutes
 afterwards. The first point was found by finding the time 
 where the average in a 1s interval (looking ahead and backwards by 0.5s)
 was within 0.1 deg C of the target temperature.
+
+The temperature and pressure before and after mass was added to the cylinders
+was measured, and the mass added was found by calculating the riemann sum 
+of the mass flow rate for the time interval.
