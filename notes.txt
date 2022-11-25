@@ -1,0 +1,7 @@
+The heat loss per second was calculated by taking the difference
+in cumulative heat transfer between two points and dividing by the
+time difference. The two points were when the internal temperature
+first reached the target temperature of the trial, and at least 2 minutes
+afterwards. The first point was found by finding the time 
+where the average in a 1s interval (looking ahead and backwards by 0.5s)
+was within 0.1 deg C of the target temperature.
